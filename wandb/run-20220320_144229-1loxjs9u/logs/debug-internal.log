@@ -1,0 +1,212 @@
+2022-03-20 14:42:34,009 INFO    MainThread:10764 [internal.py:wandb_internal():92] W&B internal server running at pid: 10764, started at: 2022-03-20 14:42:34.008929
+2022-03-20 14:42:34,013 INFO    WriterThread:10764 [datastore.py:open_for_write():77] open: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\run-1loxjs9u.wandb
+2022-03-20 14:42:34,023 DEBUG   SenderThread:10764 [sender.py:send():235] send: header
+2022-03-20 14:42:34,023 DEBUG   SenderThread:10764 [sender.py:send():235] send: run
+2022-03-20 14:42:34,865 INFO    SenderThread:10764 [dir_watcher.py:__init__():169] watching files in: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files
+2022-03-20 14:42:34,866 INFO    SenderThread:10764 [sender.py:_start_run_threads():812] run started: 1loxjs9u with start time 1647762150
+2022-03-20 14:42:35,272 DEBUG   SenderThread:10764 [sender.py:send():235] send: summary
+2022-03-20 14:42:35,273 INFO    SenderThread:10764 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 14:42:35,291 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: check_version
+2022-03-20 14:42:35,292 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: check_version
+2022-03-20 14:42:35,854 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: run_start
+2022-03-20 14:42:35,883 INFO    Thread-11 :10764 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\wandb-summary.json
+2022-03-20 14:42:40,905 INFO    Thread-11 :10764 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\output.log
+2022-03-20 14:43:51,734 DEBUG   HandlerThread:10764 [meta.py:__init__():37] meta init
+2022-03-20 14:43:51,735 DEBUG   HandlerThread:10764 [meta.py:__init__():51] meta init done
+2022-03-20 14:43:51,735 DEBUG   HandlerThread:10764 [meta.py:probe():211] probe
+2022-03-20 14:43:51,775 DEBUG   HandlerThread:10764 [git.py:repo():33] git repository is invalid
+2022-03-20 14:43:51,776 DEBUG   HandlerThread:10764 [meta.py:_save_pip():55] save pip
+2022-03-20 14:43:51,779 DEBUG   HandlerThread:10764 [meta.py:_save_pip():69] save pip done
+2022-03-20 14:43:51,779 DEBUG   HandlerThread:10764 [meta.py:_save_conda():76] save conda
+2022-03-20 14:43:52,489 INFO    Thread-11 :10764 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\requirements.txt
+2022-03-20 14:43:52,490 INFO    Thread-11 :10764 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\conda-environment.yaml
+2022-03-20 14:44:50,482 DEBUG   HandlerThread:10764 [meta.py:_save_conda():86] save conda done
+2022-03-20 14:44:50,482 DEBUG   HandlerThread:10764 [meta.py:probe():249] probe done
+2022-03-20 14:44:50,592 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-20 14:44:50,592 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: stop_status
+2022-03-20 14:44:50,597 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: pause
+2022-03-20 14:44:50,597 INFO    HandlerThread:10764 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-20 14:44:50,641 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: resume
+2022-03-20 14:44:50,642 INFO    HandlerThread:10764 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-20 14:44:50,662 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-20 14:44:50,663 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,663 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,663 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,663 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,664 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,664 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,664 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,664 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,664 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,664 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,665 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,665 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,665 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,666 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,666 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,666 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,666 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,666 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,667 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,667 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,667 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,667 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,667 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:50,668 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:51,016 INFO    Thread-11 :10764 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\conda-environment.yaml
+2022-03-20 14:44:51,016 INFO    Thread-11 :10764 [dir_watcher.py:_on_file_created():217] file/dir created: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\wandb-metadata.json
+2022-03-20 14:44:51,021 DEBUG   SenderThread:10764 [sender.py:send():235] send: telemetry
+2022-03-20 14:44:51,022 DEBUG   SenderThread:10764 [sender.py:send():235] send: telemetry
+2022-03-20 14:44:51,022 DEBUG   SenderThread:10764 [sender.py:send():235] send: telemetry
+2022-03-20 14:44:51,022 DEBUG   SenderThread:10764 [sender.py:send():235] send: exit
+2022-03-20 14:44:51,022 INFO    SenderThread:10764 [sender.py:send_exit():371] handling exit code: 0
+2022-03-20 14:44:51,023 INFO    SenderThread:10764 [sender.py:send_exit():373] handling runtime: 134
+2022-03-20 14:44:51,026 INFO    SenderThread:10764 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 14:44:51,027 INFO    SenderThread:10764 [sender.py:send_exit():379] send defer
+2022-03-20 14:44:51,027 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,027 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,028 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,028 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,028 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,029 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,029 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,029 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,030 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,030 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,030 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,030 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,030 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,031 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,031 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,031 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,031 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,031 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,031 DEBUG   SenderThread:10764 [sender.py:send():235] send: stats
+2022-03-20 14:44:51,032 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,034 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:51,034 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,034 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 0
+2022-03-20 14:44:51,034 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,035 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,036 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,036 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,036 DEBUG   SenderThread:10764 [sender.py:send():235] send: files
+2022-03-20 14:44:51,036 INFO    SenderThread:10764 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-20 14:44:51,037 DEBUG   SenderThread:10764 [sender.py:send():235] send: stats
+2022-03-20 14:44:51,038 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:51,038 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-03-20 14:44:51,038 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 1
+2022-03-20 14:44:51,039 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:51,040 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 1
+2022-03-20 14:44:51,118 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:51,118 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-03-20 14:44:51,118 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 2
+2022-03-20 14:44:51,119 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:51,119 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 2
+2022-03-20 14:44:51,119 DEBUG   SenderThread:10764 [sender.py:send():235] send: stats
+2022-03-20 14:44:51,120 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:51,120 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-03-20 14:44:51,120 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 3
+2022-03-20 14:44:51,121 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:51,121 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 3
+2022-03-20 14:44:51,121 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:51,122 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-03-20 14:44:51,122 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 4
+2022-03-20 14:44:51,122 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:51,122 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 4
+2022-03-20 14:44:51,123 DEBUG   SenderThread:10764 [sender.py:send():235] send: summary
+2022-03-20 14:44:51,124 INFO    SenderThread:10764 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-20 14:44:51,124 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:51,124 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-03-20 14:44:51,125 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 5
+2022-03-20 14:44:51,125 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:51,125 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 5
+2022-03-20 14:44:51,126 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:51,126 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-03-20 14:44:51,158 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:51,662 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 6
+2022-03-20 14:44:51,662 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:51,663 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:51,663 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 6
+2022-03-20 14:44:51,664 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:51,664 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-03-20 14:44:51,664 INFO    SenderThread:10764 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-20 14:44:51,780 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,032 INFO    SenderThread:10764 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\wandb-summary.json
+2022-03-20 14:44:52,032 INFO    SenderThread:10764 [dir_watcher.py:_on_file_modified():230] file/dir modified: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\config.yaml
+2022-03-20 14:44:52,033 INFO    SenderThread:10764 [dir_watcher.py:finish():313] scan: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files
+2022-03-20 14:44:52,033 INFO    SenderThread:10764 [dir_watcher.py:finish():327] scan save: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\conda-environment.yaml conda-environment.yaml
+2022-03-20 14:44:52,034 INFO    SenderThread:10764 [dir_watcher.py:finish():327] scan save: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\config.yaml config.yaml
+2022-03-20 14:44:52,035 INFO    SenderThread:10764 [dir_watcher.py:finish():327] scan save: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\output.log output.log
+2022-03-20 14:44:52,047 INFO    SenderThread:10764 [dir_watcher.py:finish():327] scan save: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\requirements.txt requirements.txt
+2022-03-20 14:44:52,049 INFO    SenderThread:10764 [dir_watcher.py:finish():327] scan save: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\wandb-metadata.json wandb-metadata.json
+2022-03-20 14:44:52,049 INFO    SenderThread:10764 [dir_watcher.py:finish():327] scan save: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\wandb-summary.json wandb-summary.json
+2022-03-20 14:44:52,050 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 7
+2022-03-20 14:44:52,051 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:52,059 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:52,065 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 7
+2022-03-20 14:44:52,066 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:52,066 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-03-20 14:44:52,066 INFO    SenderThread:10764 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-20 14:44:52,155 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,156 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:52,263 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,264 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:52,296 INFO    Thread-16 :10764 [upload_job.py:push():137] Uploaded file C:\Users\Ichsan\AppData\Local\Temp\tmp09bokpcxwandb\1man6dcs-wandb-metadata.json
+2022-03-20 14:44:52,371 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,371 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:52,480 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,481 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:52,588 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,588 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:52,697 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,697 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:52,806 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,807 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:52,916 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:52,917 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:53,023 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:53,024 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:53,132 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:53,132 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:53,242 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:53,242 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:53,250 INFO    Thread-20 :10764 [upload_job.py:push():137] Uploaded file C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\wandb-summary.json
+2022-03-20 14:44:53,284 INFO    Thread-19 :10764 [upload_job.py:push():137] Uploaded file C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\requirements.txt
+2022-03-20 14:44:53,289 INFO    Thread-18 :10764 [upload_job.py:push():137] Uploaded file C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\config.yaml
+2022-03-20 14:44:53,292 INFO    Thread-17 :10764 [upload_job.py:push():137] Uploaded file C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\files\conda-environment.yaml
+2022-03-20 14:44:53,350 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:53,350 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:53,459 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:53,460 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:53,505 INFO    Thread-10 :10764 [sender.py:transition_state():392] send defer: 8
+2022-03-20 14:44:53,505 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:53,506 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 8
+2022-03-20 14:44:53,506 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:53,506 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-03-20 14:44:53,567 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:54,412 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 9
+2022-03-20 14:44:54,413 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:54,414 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:54,414 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 9
+2022-03-20 14:44:54,414 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:54,414 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-03-20 14:44:54,414 INFO    SenderThread:10764 [sender.py:transition_state():392] send defer: 10
+2022-03-20 14:44:54,415 DEBUG   SenderThread:10764 [sender.py:send():235] send: final
+2022-03-20 14:44:54,416 DEBUG   SenderThread:10764 [sender.py:send():235] send: footer
+2022-03-20 14:44:54,416 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: defer
+2022-03-20 14:44:54,416 INFO    HandlerThread:10764 [handler.py:handle_request_defer():164] handle defer: 10
+2022-03-20 14:44:54,417 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: defer
+2022-03-20 14:44:54,417 INFO    SenderThread:10764 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-03-20 14:44:54,528 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-20 14:44:54,528 DEBUG   SenderThread:10764 [sender.py:send_request():249] send_request: poll_exit
+2022-03-20 14:44:54,529 INFO    SenderThread:10764 [file_pusher.py:join():150] waiting for file pusher
+2022-03-20 14:44:55,528 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: sampled_history
+2022-03-20 14:44:55,529 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: get_summary
+2022-03-20 14:44:55,530 DEBUG   HandlerThread:10764 [handler.py:handle_request():141] handle_request: shutdown
+2022-03-20 14:44:55,531 INFO    HandlerThread:10764 [handler.py:finish():778] shutting down handler
+2022-03-20 14:44:56,429 INFO    SenderThread:10764 [sender.py:finish():1078] shutting down sender
+2022-03-20 14:44:56,429 INFO    WriterThread:10764 [datastore.py:close():281] close: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_144229-1loxjs9u\run-1loxjs9u.wandb
+2022-03-20 14:44:56,429 INFO    SenderThread:10764 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-20 14:44:56,429 INFO    SenderThread:10764 [file_pusher.py:join():150] waiting for file pusher
+2022-03-20 14:44:56,434 INFO    MainThread:10764 [internal.py:handle_exit():82] Internal process exited

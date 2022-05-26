@@ -1,0 +1,7 @@
+2022-03-20 14:37:59,439 INFO    MainThread:12456 [internal.py:wandb_internal():92] W&B internal server running at pid: 12456, started at: 2022-03-20 14:37:59.438138
+2022-03-20 14:37:59,443 INFO    WriterThread:12456 [datastore.py:open_for_write():77] open: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_143655-9r6ac2nd\run-9r6ac2nd.wandb
+2022-03-20 14:37:59,443 DEBUG   HandlerThread:12456 [handler.py:handle_request():141] handle_request: shutdown
+2022-03-20 14:37:59,445 INFO    HandlerThread:12456 [handler.py:finish():778] shutting down handler
+2022-03-20 14:37:59,481 INFO    SenderThread:12456 [sender.py:finish():1078] shutting down sender
+2022-03-20 14:38:00,458 INFO    WriterThread:12456 [datastore.py:close():281] close: C:\Users\Ichsan\tugasakhir\wandb\run-20220320_143655-9r6ac2nd\run-9r6ac2nd.wandb
+2022-03-20 14:38:00,459 INFO    MainThread:12456 [internal.py:handle_exit():82] Internal process exited
